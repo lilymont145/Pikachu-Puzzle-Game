@@ -2,7 +2,7 @@
 using namespace std;
 
 //Used to move your cursor to a specific location in the console
-void goToRowsColumns(int rowPos, int colPos)
+void goToXY(int rowPos, int colPos)
 {
 	HANDLE console = GetStdHandle(STD_OUTPUT_HANDLE);
 	int xPos = colPos;
